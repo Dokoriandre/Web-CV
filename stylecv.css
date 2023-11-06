@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+
+.photoprofil {
+    border-radius: 100%;
+}
+
+main {
+    text-align: center;
+}
+
+.effeticone {
+    display: inline-block;
+    margin: 20px;
+    width: 150px;
+    height: 90px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    line-height: 90px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.effeticone:hover {
+    width: 160px;
+    height: 100px;
+    font-size: 18px;
+}
+
+.effeticone h2 {
+    margin: auto;
+    padding: auto;
+}
+
+.effeticone a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.introduction {
+    background-color: #fff; /* Couleur de fond de la section */
+    border: 1px solid #ccc; /* Bordure autour de la section */
+    padding: 20px; /* Espacement interne */
+    margin: 20px 0; /* Marge supérieure et inférieure */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre légère */
+}
+
+.introduction p {
+    font-family: Arial, sans-serif; /* Police de caractères */
+    font-size: 16px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+    line-height: 1.5; /* Hauteur de ligne */
+    text-align: justify; /* Justifier le texte */
+    margin: 0; /* Supprimer les marges par défaut du paragraphe */
+}
+
