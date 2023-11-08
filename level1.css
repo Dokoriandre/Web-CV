@@ -1,0 +1,31 @@
+
+#field-image {
+    width: 50%;
+    height: 50%;
+}
+
+.game-container {
+    position: relative;
+    text-align: center;
+    padding-top: 1%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.game-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px 0;
+    color: #007BFF; /* Couleur du texte */
+    text-shadow: 2px 2px 4px #888; /* Ombre du texte */
+}
+
+.game-instructions {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333; /* Couleur du texte */
+}
